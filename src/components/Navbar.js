@@ -15,11 +15,11 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <div className="hidden md:flex space-x-8">
-        <a href="#" className="hover:text-gray-300 text-[20px]" style={{ fontFamily: 'Inika', fontWeight: '400' }}>Home</a>
-        <a href="#" className="hover:text-gray-300 text-[20px]" style={{ fontFamily: 'Inika', fontWeight: '400' }}>About</a>
-        <a href="#" className="hover:text-gray-300 text-[20px]" style={{ fontFamily: 'Inika', fontWeight: '400' }}>Features</a>
-        <a href="#" className="hover:text-gray-300 text-[20px]" style={{ fontFamily: 'Inika', fontWeight: '400' }}>Social Impact</a>
-        <a href="#" className="hover:text-gray-300 text-[20px]" style={{ fontFamily: 'Inika', fontWeight: '400' }}>Contact Us</a>
+        <a href="/" className="hover:text-gray-300 text-[20px]" style={{ fontFamily: 'Inika', fontWeight: '400' }}>Home</a>
+        <a href="/about" className="hover:text-gray-300 text-[20px]" style={{ fontFamily: 'Inika', fontWeight: '400' }}>About</a>
+        <a href="/Features" className="hover:text-gray-300 text-[20px]" style={{ fontFamily: 'Inika', fontWeight: '400' }}>Features</a>
+        <a href="/SocialImpact" className="hover:text-gray-300 text-[20px]" style={{ fontFamily: 'Inika', fontWeight: '400' }}>Social Impact</a>
+        <a href="/Contact" className="hover:text-gray-300 text-[20px]" style={{ fontFamily: 'Inika', fontWeight: '400' }}>Contact Us</a>
       </div>
 
 
