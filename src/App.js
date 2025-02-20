@@ -1,12 +1,22 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import About from './pages/About';
+import Navbar from './components/Navbar';
+
 
 
 
 function App() {
   return (
-    
-    <div className="p-4 bg-gray-100 text-center">
-    <h1 className="text-2xl font-bold text-blue-600">Hello</h1>
+    <div>
+      <Navbar/>
+    <BrowserRouter>
+    <Routes>
+      <Route path= "/" element={<HomePage/>}></Route>
+      <Route path="/about" element={<About/>}></Route>
+    </Routes>
+    </BrowserRouter>
   </div>
   
   );
