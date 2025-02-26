@@ -2,6 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
+    <div id="About">
+
     <div className="flex flex-col items-center justify-center min-h-screen bg-white p-6">
       <h1 className="text-6xl font-bold text-pink-600" style={{ fontFamily: 'Irish Grover' }}>PetMate</h1>
       <h2 className="text-2xl font-semibold text-purple-800 mt-2" style={{ fontFamily: 'Jacques Francois' }}>
@@ -19,6 +21,7 @@ const About = () => {
       </p>
       <img src="Pet.png" alt="PetMate Banner" className="w-full max-w-4xl mt-6" />
     </div>
+  </div>
   );
 };
 
