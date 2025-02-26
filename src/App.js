@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import About from './pages/About';
 import Navbar from './components/Navbar';
 import Features from './pages/Features';
+import SocialImpact from './pages/SocialImpact';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Route path= "/" element={<HomePage/>}></Route>
       <Route path="/about" element={<About/>}></Route>
       <Route path="/Features" element={<Features/>}></Route>
+      <Route path="/SocialImpact" element={<SocialImpact/>}></Route>
     </Routes>
     </BrowserRouter>
   </div>
