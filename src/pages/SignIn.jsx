@@ -17,7 +17,7 @@ const SignIn = () => {
       <div className="relative flex rounded-full overflow-hidden">
         <div className="absolute inset-0 bg-white w-full h-full"></div>
         <button
-          className="relative z-10  bg-pink-600  text-black text-3xl px-10 py-3 rounded-full  transition duration-300"
+          className="relative z-10  bg-pink-600  text-white text-3xl px-10 py-3 rounded-full  transition duration-300"
           style={{ fontFamily: 'Instrument Serif, serif' }}
           onClick={() => navigate("/signup")}
         >
@@ -36,7 +36,7 @@ const SignIn = () => {
       </div>
       
      {/* Right Side - SignIn Form */}
-<div className="w-1/2 flex flex-col justify-start items-center p-12">
+<div className="w-1/2 flex flex-col justify-start items-center p-10">
   <h2 className="text-4xl  text-pink-600 mb-6 p-4" style={{ fontFamily: 'Instrument Serif, serif' }}>
     Please Sign In to continue..
   </h2>
