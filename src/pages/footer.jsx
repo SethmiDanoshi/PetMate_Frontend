@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div>
-        <h2 className="text-center text-3xl font-serif text-[#640D56] mb-6">
+        <h2 className="text-center text-8xl font-serif text-[#640D56] mt-10 mb-20" style={{ fontFamily: 'Italianno' }}>
             Every Paw Deserves a Perfect Home.
           </h2>
           
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto px-6">
           
   
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 " style={{ fontFamily: 'Jacques Francois' }}>
             <div>
               <h3 className="font-semibold">Need help?</h3>
               <ul className="mt-2 space-y-1">
@@ -72,7 +72,7 @@ const Footer = () => {
             </div>
           </div>
   
-          <p className="text-xs text-gray-600 mt-8 text-center">
+          <p className="text-xs text-gray-600 mt-8 text-center" style={{ fontFamily: 'Jacques Francois' }}>
             PetMate is a trading name of PetMate Limited. PetMate pet insurance is
             arranged by TICORP Limited which is registered in Gibraltar. Company
             number 111526. Registered office: First Floor, Grand Ocean Plaza,
