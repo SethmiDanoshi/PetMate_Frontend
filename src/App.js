@@ -5,6 +5,9 @@ import About from './pages/About';
 import Navbar from './components/Navbar';
 import Features from './pages/Features';
 import SocialImpact from './pages/SocialImpact';
+import Contact from './pages/Contact';
+import Footer from './pages/footer';
+import PageFooter from './components/PageFooter';
 
 
 
@@ -19,8 +22,10 @@ function App() {
       <Route path="/about" element={<About/>}></Route>
       <Route path="/Features" element={<Features/>}></Route>
       <Route path="/SocialImpact" element={<SocialImpact/>}></Route>
+      <Route path="/Contact" element={<Contact/>}></Route>
     </Routes>
     </BrowserRouter>
+    <PageFooter/>
   </div>
   
   );
