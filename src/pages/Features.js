@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ProductFeatures() {
+export default function Features() {
   const features = [
     {
       title: "Community",

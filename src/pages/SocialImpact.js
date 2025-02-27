@@ -36,11 +36,11 @@ const SocialImpact = () => {
         {impactItems.map((item, index) => (
           <div
           key={index}
-            className={`flex flex-col p-4 items-center text-center ${item.title === 'Encouraging Ethical Breeding and Sales' || item.title === 'Increasing Access to Pet Care Resources' ? 'ml-8' : ''}`}
+            className={`flex flex-col p-4 items-center text-center  ${item.title === 'Encouraging Ethical Breeding and Sales' || item.title === 'Increasing Access to Pet Care Resources' ? 'ml-8' : ''}`}
             style={item.title === 'Encouraging Ethical Breeding and Sales' || item.title === 'Increasing Access to Pet Care Resources' ? { marginLeft: '15rem' } : {}}
 
           >
-            <div className="w-40 h-40 rounded-full border-4 border-pink-500 overflow-hidden" >
+            <div className="w-40 h-40 rounded-full border-4 border-pink-500 overflow-hidden " >
               <img src={item.img} alt={item.title} className="w-full h-full object-cover" />
             </div>
             <p className="mt-4 text-2xl font-semibold" style={{ fontFamily: 'Inria Serif, serif' }}>{item.title}</p>

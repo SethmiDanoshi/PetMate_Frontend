@@ -1,10 +1,15 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import About from './About';
+import Footer from './footer';
+import Features from './Features';
+import SocialImpact from './SocialImpact';
+import Contact from './Contact';
 
 function HomePage() {
   return (
-    // Carousel
+    <div>
+    {/*  Carousel */}
     <Carousel className="w-full h-screen">
       {/* First Slide */}
       <Carousel.Item interval={1000} className="w-full h-screen relative">
@@ -116,7 +121,13 @@ function HomePage() {
       </Carousel.Item>
 
     </Carousel>
-
+    <About/>
+    <Features/>
+    <SocialImpact/>
+    <Contact/>
+    <Footer/>
+    </div>
+    
     
   );
 }
