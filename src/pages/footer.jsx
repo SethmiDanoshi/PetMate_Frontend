@@ -1,10 +1,13 @@
 const Footer = () => {
     return (
-      <footer className="bg-blue-200 text-gray-700 py-8">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-center text-3xl font-serif text-purple-700 mb-6">
+        <div>
+        <h2 className="text-center text-3xl font-serif text-[#640D56] mb-6">
             Every Paw Deserves a Perfect Home.
           </h2>
+          
+      <footer className="bg-[#66D1EE] text-gray-700 py-8">
+        <div className="max-w-6xl mx-auto px-6">
+          
   
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div>
@@ -70,7 +73,7 @@ const Footer = () => {
           </div>
   
           <p className="text-xs text-gray-600 mt-8 text-center">
-            PetMate is a trading name of TICORP Limited. PetMate pet insurance is
+            PetMate is a trading name of PetMate Limited. PetMate pet insurance is
             arranged by TICORP Limited which is registered in Gibraltar. Company
             number 111526. Registered office: First Floor, Grand Ocean Plaza,
             Ocean Village, Gibraltar. TICORP Limited is authorised and regulated
@@ -88,7 +91,9 @@ const Footer = () => {
             across their product portfolio.
           </p>
         </div>
+        
       </footer>
+      </div>
     );
   };
   
