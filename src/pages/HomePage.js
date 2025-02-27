@@ -9,6 +9,7 @@ import Contact from './Contact';
 function HomePage() {
   return (
     <div>
+      <section id="home"><home /></section>
     {/*  Carousel */}
     <Carousel className="w-full h-screen">
       {/* First Slide */}
@@ -121,11 +122,13 @@ function HomePage() {
       </Carousel.Item>
 
     </Carousel>
-    <About/>
-    <Features/>
-    <SocialImpact/>
-    <Contact/>
-    <Footer/>
+    
+
+      <section id="about"><About /></section>
+      <section id="features"><Features /></section>
+      <section id="social-impact"><SocialImpact /></section>
+      <section id="contact"><Contact /></section>
+      <Footer/>
     </div>
     
     

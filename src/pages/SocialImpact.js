@@ -29,7 +29,7 @@ const SocialImpact = () => {
       className="relative w-full h-screen bg-cover bg-center flex flex-col items-center justify-center text-white"
       style={{ backgroundImage: "url('background-image.jpeg')" }}
     >
-      <h1 className="text-6xl md:text-6xl  mb-4 -mt-20 text-white" style={{ fontFamily: 'Instrument Serif, serif' }}>
+      <h1 className="text-6xl md:text-6xl  mb-4 mt-5 text-white" style={{ fontFamily: 'Instrument Serif, serif' }}>
         Social Impact
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-10">

@@ -36,7 +36,7 @@ export default function Features() {
 
   return (
     <div className="max-w-5xl mx-auto text-center py-12">
-      <h2 className="text-6xl text-pink-600 mb-8" style={{ fontFamily: 'Instrument Serif, serif' }}>
+      <h2 className="text-6xl text-pink-600 mt-5 mb-8" style={{ fontFamily: 'Instrument Serif, serif' }}>
         Product Features
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
