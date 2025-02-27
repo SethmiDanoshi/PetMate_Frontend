@@ -26,7 +26,7 @@ const SignUp = () => {
         <button
           className="relative z-10 text-white text-3xl px-10 py-3 rounded-full  ml-[-10px] transition duration-300 "
           style={{ fontFamily: 'Instrument Serif, serif' }}
-          onClick={() => navigate("/login")}
+          onClick={() => navigate("/SignIn")}
         >
           Login
         </button>
@@ -90,7 +90,7 @@ const SignUp = () => {
 
   <p className="text-center text-sm mt-4">
     Already a user?{" "}
-    <span className="text-pink-500 cursor-pointer">Sign In</span>
+    <span className="text-pink-500 cursor-pointer" onClick={() => navigate("/SignIn")}>Sign In</span>
   </p>
 
   <div className="flex items-center justify-center mt-4">
